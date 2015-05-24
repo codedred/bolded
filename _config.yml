@@ -3,8 +3,8 @@ title: Bolded.org
 email: team@bolded.org
 description: > # this means to ignore newlines until "baseurl:"
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bolded.org" # the base hostname & protocol for your site
+baseurl: "/bolded" # the subpath of your site, e.g. /blog/
+url: "http://codedred.github.io" # the base hostname & protocol for your site
 twitter_username: bolded
 
 # Build settings
