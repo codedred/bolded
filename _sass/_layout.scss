@@ -32,8 +32,8 @@ body {
 }
 
 .jumbotron {
-  background: linear-gradient(175deg, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.9) 50%, rgba(242, 217, 93, 0.68)), linear-gradient(180deg, #FFFFFF, rgba(255, 255, 255, 0) 10%), url(/assets/images/bg-test-1.jpg) center center/cover no-repeat, #FFFFFF;
-  /*background: linear-gradient(175deg, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.9) 50%, rgba(242, 217, 93, 0.68)), linear-gradient(180deg, #FFFFFF, rgba(255, 255, 255, 0) 10%), url(/assets/images/sf.jpeg) center top/cover no-repeat, #FFFFFF;*/
+  background: linear-gradient(175deg, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.9) 50%, rgba(242, 217, 93, 0.68)), linear-gradient(180deg, #FFFFFF, rgba(255, 255, 255, 0) 10%), url(assets/images/bg-test-1.jpg) center center/cover no-repeat, #FFFFFF;
+  /*background: linear-gradient(175deg, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.9) 50%, rgba(242, 217, 93, 0.68)), linear-gradient(180deg, #FFFFFF, rgba(255, 255, 255, 0) 10%), url(assets/images/sf.jpeg) center top/cover no-repeat, #FFFFFF;*/
   height: 550px;
   margin-bottom: 0;
   text-align: center;
