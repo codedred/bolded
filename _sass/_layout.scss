@@ -74,6 +74,16 @@ body {
 
 }
 
+.btn.btn-primary {
+  border: 1px solid #8C8139;
+  background-color: #C1B66F;
+  color: white;
+  padding: 8px 50px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
 .btn.btn-outline {
   border: 1px solid #818600;
   padding: 4px 50px;
@@ -123,6 +133,7 @@ body {
 .targets, .team {
   margin-top: 20px;
   font-size: .9em;
+  text-align: center;
   h2 { text-align: center; margin-bottom: 30px; }
   h3 {
     font-size: 1.1em;
@@ -156,6 +167,14 @@ body {
   }
 
   .btn-primary {  }
+}
+
+.invite-dark {
+  margin-top: 100px;
+  background: #000;
+  label {
+    color: white;
+  }
 }
 
 .video {
@@ -256,7 +275,6 @@ body {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
