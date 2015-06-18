@@ -1,9 +1,11 @@
 .default-navbar {
+  z-index: 2;
+  height: 90px;
   background: transparent;
-  height: 75px;
+  @include transition(all 0.4s ease);
 
   .navi {
-    height: 75px;
+    height: 90px;
     @include display-flex;
   }
 
@@ -24,11 +26,14 @@
 
   &.-fixed {
     position: fixed;
+    top: 0;
     width: 100%;
-    height: 90px;
+    height: 75px;
+    background: #fff; 
+    border: 1px solid $hr-gray;
 
     .navi {
-      height: 90px;
+      height: 75px;
     }
   }
 }
