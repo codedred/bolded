@@ -1,0 +1,22 @@
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+     -moz-box-flex: $values;
+      -webkit-flex: $values;
+          -ms-flex: $values;
+              flex: $values;
+}
+
+@mixin align-self($values) {
+  -webkit-align-self: $values;
+     -moz-align-self: $values;
+       -o-align-self: $values;
+          align-self: $values;
+}
