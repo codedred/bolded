@@ -5,7 +5,6 @@
     width: 100%;
 
     .splash-header {
-      line-height: 1.4em;
       letter-spacing: 0.01em; 
     }
 
@@ -17,7 +16,7 @@
   }
 
   &.-pale-yellow {
-    background: $pale-yellow;
+    background: rgba($pale-yellow, 0.13);
   }
 
   &.-home {
@@ -39,7 +38,7 @@
       z-index: -1;
       opacity: 0.03;
       background: url(../assets/images/logo_standalone.png) center center no-repeat;
-      @include background-size(20%);
+      @include background-size(270px);
     }
   }
 
@@ -49,5 +48,9 @@
 
   &.-medium {
     padding: 150px 0;
+  }
+
+  &.-small {
+    padding: 100px 0;
   }
 }
