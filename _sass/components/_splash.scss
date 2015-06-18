@@ -1,0 +1,61 @@
+.splash {
+  .splash-content {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+
+    .splash-header {
+      letter-spacing: 0.01em; 
+    }
+
+    .play-btn {
+      position: absolute;
+      right: -450px;
+      top: 30%;
+    }
+  }
+
+  &.-pale-yellow {
+    background: rgba($pale-yellow, 0.13);
+  }
+
+  &.-home {
+    background: url(../assets/images/splash_home.jpg) bottom center no-repeat;
+    @include background-size(cover);
+  }
+
+  &.-about {
+    position: relative;
+
+    &:after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      opacity: 0.03;
+      background: url(../assets/images/logo_standalone.png) center center no-repeat;
+      @include background-size(270px);
+    }
+  }
+
+  &.-large {
+    padding: 280px 0 250px;
+    margin-top: -90px;
+  }
+
+  &.-medium {
+    padding: 150px 0;
+  }
+
+  &.-small {
+    padding: 100px 0;
+  }
+
+  &.-small-no-top {
+    padding: 0 0 100px;
+  }
+}

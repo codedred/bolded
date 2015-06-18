@@ -1,0 +1,23 @@
+.targets {
+  .target-header {
+    margin-bottom: 25px;
+  }
+
+  .target-content {
+    margin-bottom: 30px;
+  }
+
+  .target-misc {
+    .btn-event {
+      max-width: 200px; 
+      width: 100%; 
+      margin-bottom: 20px;
+    }
+
+    .tip {
+      font-size: 0.95em;
+      color: $bluish-gray;
+      margin-top: 5px;
+    } 
+  }
+}

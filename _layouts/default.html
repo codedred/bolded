@@ -5,42 +5,35 @@
 
   <body>
     <div class="body">
-      <div class="jumbotron">
-        <div class="navbar">
-          <div class="container">
-            <div class="social-icons">
-              <i class="icon ion-social-facebook"></i>
-              <i class="icon ion-social-twitter"></i>
-            </div>
-            <div class="logo"><a href="/"><img src="./assets/images/logo-horizontal.png"></a></div>
-          </div>
-        </div>
+      {% include nav.html %}
+      <div class="splash -home -large">
         <div class="container">
-          <div class="intro">
-          <h3>What is Bolded?</h3>
-            <h1>
-              <strong>BOLDED</strong> is about celebrating underprivileged <br/>young people as strong human beings. </h1>
-            <a href="#onboard" class="btn btn-outline">Get onboard</a>
-            <p></p>
+          <div class="splash-content">
+            <h1 class="splash-header">The only one who tells you that you cant, is you.</h1>
+            <!--<h1> BOLDED is about celebrating underprivileged young people as strong human beings. </h1>-->
+            <!--<a href="#onboard" class="btn btn-outline">Get onboard</a>-->
+            <img src="./assets/images/play_btn.png" class="play-btn" />
           </div>
         </div>
       </div>
 
-      {% include video.html %}
+      {% include about.html %}
+      {% include documentary.html %}
+      {% include events.html %}
       {% include targets.html %}
-      <div class="separator"></div>
+      {% include objective.html %}
+      {% include video.html %}
+      <!--<div class="separator"></div>-->
       {% include story.html %}
-      <div class="separator"></div>
-      {% include invite.html %}
-      <div class="separator"></div>
+      <!--<div class="separator"></div>-->
       {% include founder.html %}
-      <div class="separator borderless"></div>
+      <!--<div class="separator borderless"></div>-->
 
       {% include team.html %}
 
-      <div class="invite-dark">
-        {% include invite.html %}
-      </div>
+      <!--<div class="invite-dark">-->
+      {% include invite.html %}
+      <!--</div>-->
 
 
     </div>

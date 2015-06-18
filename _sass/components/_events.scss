@@ -1,0 +1,24 @@
+.event-list {
+  .event-header { margin-bottom: 35px; }
+  
+  .event-location {
+    font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: $dark-yellow;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  .event-item {  margin-bottom: 10px; }
+
+  .event-name { margin: 0; }
+
+  .event-date { 
+    font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: $bluish-gray;
+    text-transform: uppercase;
+  }
+}

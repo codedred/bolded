@@ -1,0 +1,36 @@
+.invite {
+  text-align: center;
+
+  .control-label {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    @include display-flex;
+    @include justify-content(center);
+  }
+
+  .form-control {
+    max-width: 350px;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    @include align-self(center);
+  }
+
+  .btn {
+    height: 45px;
+    max-width: 125px;
+    width: 100%;
+    margin-left: -1px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    @include align-self(center);
+  }
+}
