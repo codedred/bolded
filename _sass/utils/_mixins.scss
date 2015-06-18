@@ -1,3 +1,17 @@
+@mixin transition($transitions) {
+  -webkit-transition: $transitions;
+     -moz-transition: $transitions;
+       -o-transition: $transitions;
+          transition: $transitions;
+}
+
+@mixin background-size($value) {
+  -webkit-background-size: $value;
+     -moz-background-size: $value;
+       -o-background-size: $value;
+          background-size: $value;
+}
+
 @mixin display-flex {
   display: -webkit-box;
   display: -moz-box;

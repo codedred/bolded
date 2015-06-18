@@ -1,0 +1,15 @@
+.btn {
+  font-weight: 700;
+  border-radius: 2px;
+  @include transition(all 0.3s);
+}
+
+.btn-default {
+  color: #fff;
+  background: $yellow;
+  border: transparent;
+
+  &:hover, &:focus, &:active {
+    background: darken($yellow, 5%);
+  }
+}

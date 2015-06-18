@@ -1,0 +1,20 @@
+.splash {
+  .splash-content {
+    max-width: 500px;
+    width: 100%;
+
+    .splash-header {
+      line-height: 1.4em;
+      letter-spacing: 0.01em; 
+    }
+  }
+
+  &.-home {
+    background: url(../assets/images/splash_home.jpg) bottom center no-repeat;
+    @include background-size(cover);
+  }
+
+  &.-medium {
+    padding: 280px 0 250px;
+  }
+}
