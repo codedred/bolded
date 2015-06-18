@@ -1,6 +1,7 @@
 .btn {
   font-weight: 700;
   border-radius: 2px;
+  padding: 12px 18px;
   @include transition(all 0.3s);
 }
 
