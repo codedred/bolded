@@ -34,3 +34,10 @@
        -o-align-self: $values;
           align-self: $values;
 }
+
+@mixin justify-content($values) {
+  -webkit-justify-content: $values;
+     -moz-justify-content: $values;
+       -o-justify-content: $values;
+          justify-content: $values;
+}

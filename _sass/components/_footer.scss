@@ -1,0 +1,46 @@
+.site-footer {
+  height: 75px; 
+  background: #fff;
+  border-top: 1px solid $hr-gray;
+
+  .footer {
+    height: 75px;
+    @include display-flex;
+  }
+
+  .brand {
+    float: left;
+    .logo { 
+      width: 160px; 
+      @include align-self(center);
+    }
+
+    .footer-email {
+      margin-left: 50px;
+      font-size: 1.2em;
+      color: $light-gray;
+      text-decoration: none;
+      @include align-self(center);
+      @include transition(all 0.3s);
+
+      &:active, &:hover, &:focus {
+        color: darken($light-gray, 20%);
+      }
+    }
+  }
+
+  .social {
+    float: right;
+    .social-icon { 
+      font-size: 2em;
+      color: $lighter-gray;
+      margin-left: 25px;
+      @include align-self(center);
+      @include transition(all 0.3s);
+
+      &:active, &:hover, &:focus {
+        color: darken($lighter-gray, 20%);
+      }
+    }
+  }
+}
