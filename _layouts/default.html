@@ -4,7 +4,8 @@
   {% include head.html %}
 
   <body>
-    <div class="body">
+    < div class="body">
+
       {% include nav.html %}
       <div class="splash -home -large">
         <div class="container splash-container">
@@ -14,7 +15,9 @@
             <!--<a href="#onboard" class="btn btn-outline">Get onboard</a>-->
           </div>
           <div class="splash-misc">
-            <img src="./assets/images/play_btn.png" class="play-btn" />
+            <a href="#" data-toggle="modal" data-target="#video-modal">
+              <img src="./assets/images/play_btn.png" class="play-btn" />
+            </a>
           </div>
         </div>
       </div>
@@ -24,7 +27,6 @@
       {% include events.html %}
       {% include targets.html %}
       {% include objective.html %}
-      {% include video.html %}
       <!--<div class="separator"></div>-->
       {% include story.html %}
       <!--<div class="separator"></div>-->
@@ -37,11 +39,11 @@
       {% include invite.html %}
       <!--</div>-->
 
-
     </div>
 
     <!--{{ content }}-->
 
+    {% include video.html %}
     {% include footer.html %}
 
   </body>

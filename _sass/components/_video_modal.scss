@@ -1,0 +1,15 @@
+.video-modal {
+  .modal-dialog {
+    margin-top: 50px;  
+  }
+
+  .modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+.fade.in {
+  background: rgba(0, 0, 0, 0.65);
+}
