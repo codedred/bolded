@@ -1,18 +1,27 @@
 .splash {
+  .splash-container { 
+    @include display-flex;
+  }
+
   .splash-content {
-    position: relative;
-    max-width: 500px;
+    max-width: 650px;
     width: 100%;
+    @include align-self(center);
 
     .splash-header {
       letter-spacing: 0.01em; 
     }
 
-    .play-btn {
-      position: absolute;
-      right: -450px;
-      top: 30%;
+    .splash-text {
+      font-size: 1.2em;
+      max-width: 600px;
+      width: 100%;
     }
+  }
+
+  .splash-misc {
+    margin: auto;
+    @include align-self(center);
   }
 
   &.-pale-yellow {
@@ -20,7 +29,9 @@
   }
 
   &.-home {
-    background: url(../assets/images/splash_home.jpg) bottom center no-repeat;
+    /*orange gradient*/
+    /*background: linear-gradient(to bottom, rgba(255, 209, 148, 0.70), rgba(209, 145, 60, 0.80)), url(../assets/images/splash_home.jpg) bottom center no-repeat;*/
+    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)), url(../assets/images/splash_home.jpg) bottom center no-repeat;
     @include background-size(cover);
   }
 
@@ -43,7 +54,7 @@
   }
 
   &.-large {
-    padding: 280px 0 250px;
+    padding: 240px 0 200px;
     margin-top: -90px;
   }
 
