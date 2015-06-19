@@ -17,6 +17,18 @@
       max-width: 600px;
       width: 100%;
     }
+
+    &.-team {
+      margin: auto;
+
+      .splash-header, .splash-text {
+        text-align: center;
+        max-width: none;
+      }
+      .splash-text {
+        font-size: 1.4em;
+      }
+    }
   }
 
   .splash-misc {

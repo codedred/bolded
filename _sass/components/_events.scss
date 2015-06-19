@@ -12,7 +12,10 @@
 
   .event-item {  margin-bottom: 10px; }
 
-  .event-name { margin: 0; }
+  .event-name { 
+    margin: 0; 
+    color: $gray;
+  }
 
   .event-date { 
     font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
