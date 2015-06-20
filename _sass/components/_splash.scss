@@ -20,6 +20,7 @@
 
     &.-team {
       margin: auto;
+      max-width: none;
 
       .splash-header, .splash-text {
         text-align: center;
@@ -29,6 +30,11 @@
         font-size: 1.4em;
       }
     }
+  }
+
+  &.-team-message {
+    background: #fff;
+    border: 1px solid $hr-gray;
   }
 
   .splash-misc {
