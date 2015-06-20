@@ -48,5 +48,16 @@
     .navi {
       height: 75px;
     }
+
+    .brand {
+      .nav-link {
+        color: $gray; 
+        @include transition(all 0.3s);
+
+        &:hover, &:active, &:focus {
+          color: $yellow;
+        }
+      }
+    }
   }
 }
