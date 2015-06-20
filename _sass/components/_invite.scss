@@ -2,6 +2,7 @@
   text-align: center;
 
   .control-label {
+    font-family: 'jubilat', 'Helvetica Neue', 'Arial', sans-serif;
     font-size: 1.8em;
     font-weight: bold;
     margin-bottom: 20px;
@@ -13,13 +14,19 @@
   }
 
   .form-control {
-    max-width: 350px;
+    max-width: 370px;
     width: 100%;
+    border: 1px solid $hr-gray;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     @include align-self(center);
+    
+    &:focus, &:active, &:hover {
+      box-shadow: none;
+      border: 1px solid $yellow;
+    }
   }
 
   .btn {
@@ -33,4 +40,10 @@
     border-bottom-left-radius: 0;
     @include align-self(center);
   }
+}
+
+input::-webkit-input-placeholder {
+  font-weight: 300;
+  font-style: italic;
+  color: $lighter-gray;
 }
