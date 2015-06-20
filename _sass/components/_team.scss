@@ -1,0 +1,109 @@
+.team { background-color: $bg-gray; }
+
+.page-hr {
+  color: $hr-gray;
+  margin: 60px auto;
+}
+
+.team-members { 
+  padding: 60px;
+
+  .team-header { margin-bottom: 30px; }
+
+  .member-image {
+    height: 380px;
+    min-width: 300px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .member-name { margin: 10px 0 0 0; }
+
+  .member-title { 
+    font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: $bluish-gray;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .member-misc {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+    .social-icon {
+      margin-right: 10px;
+      color: $lighter-gray;
+      @include transition(all 0.3s);
+
+      &:last-child { margin: 0; }
+
+      &:hover, &:active, &:focus {
+        color: $yellow;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .member-content {
+    text-align: left;
+    width: 100%;
+
+    .member-desc {
+      font-size: 1em;
+      line-height: 1.8;
+    }
+  }
+
+  .member-note {
+    font-size: 1.2em;
+    color: $bluish-gray;
+    margin-bottom: 50px;
+  }
+
+  .founder {
+    text-align: center;
+    .member-name { font-size: 1.6em; }
+
+    .member-content { 
+      max-width: 900px; 
+      margin: auto;
+    }
+  }
+
+  .core-team {
+    .member-content { max-width: 450px; }
+  }
+
+  .volunteers, .special-shoutout {
+    .member-image {
+      height: 280px;
+      min-width: 240px;
+    }
+  }
+
+  .volunteers {
+    .member-content { 
+      max-width: 260px;
+      margin-bottom: 50px; 
+    }
+  }
+
+  .special-shoutout {
+    .member-content { 
+      max-width: 240px;
+      margin-bottom: 50px; 
+    }
+  }
+
+  .community-leaders {
+    .member-image {
+      height: 180px;
+      min-width: 150px;
+    }
+
+    .member-misc { margin-bottom: 50px; }
+  }
+}
+
