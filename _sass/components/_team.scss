@@ -8,11 +8,19 @@
 .team-members { 
   padding: 60px 0;
 
-  .team-header { margin-bottom: 30px; }
+  .member-item {
+    display: table;
+    margin: auto;
+  }
+
+  .team-header { 
+    margin-bottom: 40px; 
+    text-align: center;
+  }
 
   .member-image {
     height: 380px;
-    min-width: 300px;
+    width: 300px;
     object-fit: cover;
     object-position: top;
   }
@@ -78,8 +86,8 @@
 
   .volunteers, .special-shoutout {
     .member-image {
-      height: 280px;
-      min-width: 240px;
+      height: 300px;
+      width: 240px;
     }
   }
 
@@ -100,7 +108,7 @@
   .community-leaders {
     .member-image {
       height: 180px;
-      min-width: 150px;
+      width: 150px;
     }
 
     .member-misc { margin-bottom: 50px; }
