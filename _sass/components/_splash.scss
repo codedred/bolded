@@ -47,9 +47,12 @@
   }
 
   &.-home {
-    /*orange gradient*/
-    /*background: linear-gradient(to bottom, rgba(255, 209, 148, 0.70), rgba(209, 145, 60, 0.80)), url(../assets/images/splash_home.jpg) bottom center no-repeat;*/
     background: linear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)), url(../assets/images/splash_home.jpg) bottom center no-repeat;
+    @include background-size(cover);
+  }
+
+  .-events {
+    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)), url(../assets/images/splash_events.png) bottom center no-repeat;
     @include background-size(cover);
   }
 
