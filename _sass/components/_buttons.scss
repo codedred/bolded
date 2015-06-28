@@ -10,7 +10,8 @@
   background: $yellow;
   border: transparent;
 
-  &:hover, &:focus, &:active {
+  &:hover, &:focus, &:active, &:active:focus {
+    outline: none;
     color: #fff;
     background: darken($yellow, 8%);
   }

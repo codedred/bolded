@@ -20,6 +20,13 @@
   display: flex;
 }
 
+@mixin flex-direction($values) {
+  -webkit-flex-direction: $values;
+     -moz-flex-direction: $values;
+       -o-flex-direction: $values;
+          flex-direction: $values;
+}
+
 @mixin flex($values) {
   -webkit-box-flex: $values;
      -moz-box-flex: $values;

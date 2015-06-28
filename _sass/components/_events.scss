@@ -1,5 +1,8 @@
 .event-list {
-  .event-header { margin-bottom: 35px; }
+  .event-header { 
+    margin-bottom: 35px; 
+    color: $grayish-white;
+  }
   
   .event-location {
     font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
@@ -14,7 +17,7 @@
 
   .event-name { 
     margin: 0; 
-    color: $gray;
+    color: $lighter-gray;
   }
 
   .event-date { 

@@ -10,12 +10,19 @@
 
     .splash-header {
       letter-spacing: 0.01em; 
+      color: $dark-yellow;
     }
 
     .splash-text {
       font-size: 1.2em;
       max-width: 600px;
       width: 100%;
+      color: $lighter-gray;
+    }
+
+    .splash-actions {
+      padding-top: 10px;
+      .btn { padding: 14px 80px; } 
     }
 
     &.-team {
@@ -47,9 +54,42 @@
   }
 
   &.-home {
-    /*orange gradient*/
-    /*background: linear-gradient(to bottom, rgba(255, 209, 148, 0.70), rgba(209, 145, 60, 0.80)), url(../assets/images/splash_home.jpg) bottom center no-repeat;*/
-    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)), url(../assets/images/splash_home.jpg) bottom center no-repeat;
+    background: linear-gradient(to bottom, rgba(22, 25, 30, 0.65), rgba(25, 29, 34, 0.8));
+   /*background: linear-gradient(to bottom, rgba(241,231,103,0.5) 0%, rgba(254,182,69, 0.5) 100%);*/
+
+    &:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      opacity: 0.86;
+      background: url(../assets/images/splash_home.jpg) top center no-repeat;
+      @include background-size(cover);
+    }
+  }
+
+  &.-events {
+    background: linear-gradient(to bottom, rgba(25, 29, 34, 0.87), rgba(25, 29, 34, 0.87)),url(../assets/images/splash_events.png) center center no-repeat;
+    /*linear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)),*/
+    @include background-size(cover);
+  }
+
+  &.-kit {
+    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.5), rgba(18, 46, 63, 0.8)), url(../assets/images/splash_kit.jpg) center center no-repeat;
+    @include background-size(cover);
+  }
+
+  &.-tech {
+    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.3), rgba(18, 46, 63, 0.5)), url(../assets/images/splash_tech.png) center center no-repeat;
+    @include background-size(cover);
+  }
+
+  &.-team {
+    background: llinear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)), url(../assets/images/splash_team.jpg) bottom center no-repeat;
     @include background-size(cover);
   }
 
@@ -77,11 +117,16 @@
   }
 
   &.-medium {
-    padding: 150px 0;
+    padding: 160px 0 130px;
+    margin-top: -90px;
   }
 
   &.-small {
     padding: 100px 0;
+  }
+
+  &.-smaller {
+    padding: 50px 0;
   }
 
   &.-small-no-top {
