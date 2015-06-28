@@ -11,10 +11,12 @@
 
   .brand {
     float: left;
-    .logo { 
+    .logo, .logo-white { 
       width: 160px; 
       @include align-self(center);
     }
+
+    .logo { display: none; }
 
     .nav-link {
       font-size: 1.2em;
