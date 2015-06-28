@@ -1,14 +1,24 @@
 .targets {
+  .target-content {
+    margin-bottom: 20px;
+    padding: 100px 30px;
+    min-height: 400px;
+    height: 100%;
+  }
+
   .target-header {
+    font-size: 2.2em;
+    color: $grayish-white;
     margin-bottom: 25px;
   }
 
-  .target-content {
+  .target-text {
+    color: $lighter-gray;
     margin-bottom: 30px;
   }
 
   .target-misc {
-    .btn-event {
+    .btn-target {
       max-width: 200px; 
       width: 100%; 
       margin-bottom: 20px;
