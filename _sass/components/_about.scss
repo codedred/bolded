@@ -1,7 +1,10 @@
 .about-content { 
   text-align: center;
 
-  .about-header { margin-bottom: 15px; }
+  .about-header { 
+    font-weight: 600;
+    margin-bottom: 15px; 
+  }
 
   .about-text {
     max-width: 600px;

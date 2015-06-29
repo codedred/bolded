@@ -34,7 +34,10 @@
         max-width: none;
       }
 
-      .splash-header { color: $black; }
+      .splash-header { 
+        color: $black; 
+        font-weight: 600;
+      }
 
       .splash-text {
         font-size: 1.4em;
