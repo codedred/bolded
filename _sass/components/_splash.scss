@@ -33,8 +33,12 @@
         text-align: center;
         max-width: none;
       }
+
+      .splash-header { color: $black; }
+
       .splash-text {
         font-size: 1.4em;
+        color: $gray;
       }
     }
   }
@@ -89,7 +93,7 @@
   }
 
   &.-team {
-    background: llinear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)), url(../assets/images/splash_team.jpg) bottom center no-repeat;
+    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)), url(../assets/images/splash_team.jpg) bottom center no-repeat;
     @include background-size(cover);
   }
 
