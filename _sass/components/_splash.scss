@@ -38,11 +38,6 @@
         color: $black; 
         font-weight: 600;
       }
-
-      .splash-text {
-        font-size: 1.4em;
-        color: $gray;
-      }
     }
   }
 
@@ -61,8 +56,7 @@
   }
 
   &.-home {
-    background: linear-gradient(to bottom, rgba(22, 25, 30, 0.65), rgba(25, 29, 34, 0.8));
-   /*background: linear-gradient(to bottom, rgba(241,231,103,0.5) 0%, rgba(254,182,69, 0.5) 100%);*/
+    background: linear-gradient(to bottom, rgba(22, 25, 30, 0.4), rgba(25, 29, 34, 0.5));
 
     &:before {
       content: "";
@@ -73,7 +67,7 @@
       top: 0;
       bottom: 0;
       z-index: -1;
-      opacity: 0.86;
+      opacity: 0.96;
       background: url(../assets/images/splash_home.jpg) top center no-repeat;
       @include background-size(cover);
     }
