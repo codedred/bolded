@@ -21,7 +21,7 @@
     .nav-link {
       font-size: 1.2em;
       color: #fff; 
-      margin-left: 30px;
+      margin-left: 22px;
       @include align-self(center);
       @include transition(all 0.3s);
 
@@ -62,4 +62,21 @@
       }
     }
   }
+
+  @media ( max-width: 450px ) {
+    .brand {
+      .logo, .logo-white { 
+        width: 125px; 
+        margin: 3px 0 0 12px:
+      }
+    }
+
+    .links {
+      .btn { 
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  }
 }
+
