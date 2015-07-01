@@ -51,28 +51,8 @@
     @include align-self(center);
   }
 
-  &.-pale-yellow {
-    background: rgba($pale-yellow, 0.13);
-  }
-
   &.-home {
     background: url(../assets/images/splash_home.jpg) top center no-repeat;
-    @include background-size(cover);
-  }
-
-  &.-events {
-    background: linear-gradient(to bottom, rgba(25, 29, 34, 0.87), rgba(25, 29, 34, 0.87)),url(../assets/images/splash_events.png) center center no-repeat;
-    /*linear-gradient(to bottom, rgba(8, 80, 120, 0.60), rgba(133, 216, 206, 0.70)),*/
-    @include background-size(cover);
-  }
-
-  &.-kit {
-    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.5), rgba(18, 46, 63, 0.8)), url(../assets/images/splash_kit.jpg) center center no-repeat;
-    @include background-size(cover);
-  }
-
-  &.-tech {
-    background: linear-gradient(to bottom, rgba(8, 80, 120, 0.3), rgba(18, 46, 63, 0.5)), url(../assets/images/splash_tech.png) center center no-repeat;
     @include background-size(cover);
   }
 
