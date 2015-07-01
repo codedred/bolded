@@ -9,14 +9,15 @@
     @include align-self(center);
 
     .splash-header {
-      letter-spacing: 0.01em; 
+      font-size: 2.8em;
       color: #fff;
+      letter-spacing: 0.01em; 
     }
 
     .splash-text {
-      font-size: 1.2em;
-      max-width: 600px;
+      max-width: 500px;
       width: 100%;
+      font-size: 1.2em;
       color: $lighter-gray;
     }
 
@@ -84,7 +85,7 @@
   }
 
   &.-medium {
-    padding: 160px 0 130px;
+    padding: 150px 0 130px;
   }
 
   &.-small {

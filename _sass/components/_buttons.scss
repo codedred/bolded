@@ -7,13 +7,13 @@
 
 .btn-default {
   color: #fff;
-  background: $black;
+  background: $blacker;
   border: transparent;
 
   &:hover, &:focus, &:active, &:active:focus {
     outline: none;
     color: #fff;
-    background: lighten($black, 10%);
+    background: $black;
   }
 }
 
@@ -25,7 +25,7 @@
   &:hover, &:focus, &:active, &:active:focus {
     outline: none;
     color: #fff;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(#fff, 0.2);
   }
 }
 
