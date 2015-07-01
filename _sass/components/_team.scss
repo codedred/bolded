@@ -6,7 +6,7 @@
 }
 
 .team-members { 
-  padding: 60px 0;
+  padding: 150px 0 60px;
 
   .member-item {
     display: table;
@@ -16,6 +16,7 @@
   .team-header { 
     margin-bottom: 40px; 
     text-align: center;
+    font-size: 2.6em;
   }
 
   .member-image {
@@ -25,7 +26,10 @@
     object-position: top;
   }
 
-  .member-name { margin: 10px 0 0 0; }
+  .member-name { 
+    margin: 10px 0 0 0; 
+    font-size: 1.4em;
+  }
 
   .member-title { 
     font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
@@ -73,7 +77,7 @@
   .founder {
     text-align: center;
     .member-image { margin: auto; }
-    .member-name { font-size: 1.6em; }
+    .member-name { font-size: 1.8em; }
 
     .member-content { 
       max-width: 900px; 
@@ -94,7 +98,7 @@
 
   .special-shoutout {
     .member-content { 
-      max-width: 240px;
+      max-width: 200px;
       margin-bottom: 50px; 
     }
   }
