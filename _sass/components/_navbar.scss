@@ -43,10 +43,8 @@
 
   @media ( max-width: 450px ) {
     .brand {
-      .logo { 
-        width: 125px; 
-        margin: 3px 0 0 12px;
-      }
+      .logo { width: 125px; }
+      .nav-link {  margin: 3px 0 0 15px; }
     }
 
     .links {
