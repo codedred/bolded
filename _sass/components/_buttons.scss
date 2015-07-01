@@ -7,7 +7,7 @@
 
 .btn-default {
   color: #fff;
-  background: $yellow;
+  background: $;
   border: transparent;
 
   &:hover, &:focus, &:active, &:active:focus {
@@ -16,3 +16,17 @@
     background: darken($yellow, 8%);
   }
 }
+
+.btn-default-outline {
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+
+  &:hover, &:focus, &:active, &:active:focus {
+    outline: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+
