@@ -5,7 +5,9 @@
   }
   
   .event-location {
+    font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
     font-size: 1.1em;
+    font-weight: 700;
     color: $gray;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -19,7 +21,9 @@
   }
 
   .event-date { 
+    font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
     font-size: 1em;
+    font-weight: 700;
     color: $bluish-gray;
     text-transform: uppercase;
   }
