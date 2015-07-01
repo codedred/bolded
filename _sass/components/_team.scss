@@ -49,7 +49,7 @@
       &:last-child { margin: 0; }
 
       &:hover, &:active, &:focus {
-        color: $yellow;
+        color: darken($lighter-gray, 20%);
         text-decoration: none;
       }
     }
