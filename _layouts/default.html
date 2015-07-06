@@ -7,44 +7,14 @@
     <div class="body">
 
       {% include nav.html %}
-      <div class="splash -home -medium">
-        <div class="container splash-container">
-          <div class="splash-content">
-            <h1 class="splash-header">A Movement Building Project</h1>
-            <p class="splash-text">BOLDED exists to pursuit one goal: provide a fighting chance for all underprivileged.
-            </p>
-            <p class="splash-text">We are inspired by the toughness that underprivileged people shown in facing the daily grind of life, and we believe their fighting spirit represents an untapped source of talent for employers.</p>
-            <h2 class="splash-header">Documentary: “Rebrand” the Underprivileged</h2>
-            <p class="splash-text">Our film invites decision makers to witness this fighting spirit. It's our hope that decision makers too will want to invite this hidden talent pool to join and benefit their organization. Philippines is our first filming location.</p>
-            <p class="splash-text">We are crowdfunding for a longer series.</p>
-            <div class="splash-actions">
-              <a href="#" class="btn btn-lg btn-default-outline">I’m in</a>
-            </div>
-          </div>
-          <div class="splash-misc">
-            <a href="#" data-toggle="modal" data-target="#video-modal">
-              <img src="./assets/images/play_btn.png" class="play-btn" />
-            </a>
-          </div>
-        </div>
-      </div>
-
+      {% include splash_home.html %}
+      {% include documentary.html %}
       {% include events.html %}
       {% include targets.html %}
       {% include objective.html %}
-      <!--<div class="separator"></div>-->
-      {% include story.html %}
-      <!--<div class="separator"></div>-->
-      {% include founder.html %}
-      <!--<div class="separator borderless"></div>-->
-
-      <!--<div class="invite-dark">-->
       {% include invite.html %}
-      <!--</div>-->
 
     </div>
-
-    <!--{{ content }}-->
 
     {% include video.html %}
     {% include footer.html %}
