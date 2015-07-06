@@ -7,45 +7,14 @@
     <div class="body">
 
       {% include nav.html %}
-      <div class="splash -home -medium">
-        <div class="container splash-container">
-          <div class="splash-content">
-            <h1 class="splash-header">A Movement Building Project</h1>
-            <p class="splash-text">
-              BOLDED is a movement. It is for any decision maker who wants a more productive workforce, while being part of creating a more equal world.
-            </p>
-            <p class="splash-text">If we could get to a place where what we do in life is determined not by social background but by our passions and characters, our companies would be more productive and our world not just better balanced but happier.</p>
-            <h2 class="splash-header">Documentary: “Rebrand” the Underprivileged</h2>
-            <p class="splash-text">Our film aims to shine a light on how the daily grind of their lives has shaped them into strong resilient forces of nature.</p>
-            <p class="splash-text">We want employers to see the underprivileged as valuable human capital and not liabilities. We want to show that these are candidates employers are looking for to grow a stronger diverse company.</p>
-            <div class="splash-actions">
-              <a href="#" class="btn btn-lg btn-default-outline">I’m in</a>
-            </div>
-          </div>
-          <div class="splash-misc">
-            <a href="#" data-toggle="modal" data-target="#video-modal">
-              <img src="./assets/images/play_btn.png" class="play-btn" />
-            </a>
-          </div>
-        </div>
-      </div>
-
+      {% include splash_home.html %}
+      {% include documentary.html %}
       {% include events.html %}
       {% include targets.html %}
       {% include objective.html %}
-      <!--<div class="separator"></div>-->
-      {% include story.html %}
-      <!--<div class="separator"></div>-->
-      {% include founder.html %}
-      <!--<div class="separator borderless"></div>-->
-
-      <!--<div class="invite-dark">-->
       {% include invite.html %}
-      <!--</div>-->
 
     </div>
-
-    <!--{{ content }}-->
 
     {% include video.html %}
     {% include footer.html %}

@@ -9,7 +9,7 @@
   }
 
   .brand {
-    float: left;
+    @include justify-content(center);
     .logo { 
       width: 160px; 
       @include align-self(center);
@@ -24,21 +24,6 @@
 
       &:active, &:hover, &:focus {
         color: darken($light-gray, 20%);
-      }
-    }
-  }
-
-  .social {
-    float: right;
-    .social-icon { 
-      font-size: 2em;
-      color: $lighter-gray;
-      margin-left: 25px;
-      @include align-self(center);
-      @include transition(all 0.3s);
-
-      &:active, &:hover, &:focus {
-        color: darken($lighter-gray, 20%);
       }
     }
   }
