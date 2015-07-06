@@ -31,3 +31,10 @@
     text-transform: uppercase;
   }
 }
+
+.event-misc {
+  max-width: 240px;
+  width: 100%;
+  margin: 40px auto 0;
+  .btn { padding: 16px 0; }
+}

@@ -35,23 +35,49 @@
   }
 
   .links {
+    float: right;
     .btn { 
-      margin-left: auto;
       @include align-self(center);
+    }
+
+    .btn-misc {
+      color: #fff;
+      font-size: 1em;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .social-icon { 
+      font-size: 2em;
+      color: $lighter-gray;
+      margin-right: 25px;
+      @include align-self(center);
+      @include transition(all 0.3s);
+
+      &:active, &:hover, &:focus {
+        color: darken($lighter-gray, 20%);
+      }
     }
   }
 
-  @media ( max-width: 450px ) {
+  @media ( max-width: 550px ) {
     .brand {
       .logo { width: 125px; }
       .nav-link {  margin: 3px 0 0 15px; }
     }
 
     .links {
+      .social-icon {
+        margin-right: 15px;
+        font-size: 1.7em;
+      }
+
       .btn { 
         font-size: 14px;
         padding: 10px;
       }
+
+      .btn-misc { display: none; }
     }
   }
 }
