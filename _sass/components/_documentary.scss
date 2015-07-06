@@ -4,7 +4,10 @@
   width: 100%;
   margin: auto;
 
-  .doc-header { margin-bottom: 25px; }
+  .doc-header { 
+    margin-bottom: 25px; 
+    font-size: 2.6em;
+  }
 
   .doc-thumbnails {
     max-width: 250px;
@@ -24,5 +27,6 @@
     max-width: 240px;
     width: 100%;
     margin: auto;
+    .btn { padding: 14px 0; }
   }
 }
