@@ -21,11 +21,6 @@
       color: $lighter-gray;
     }
 
-    .splash-actions {
-      padding-top: 10px;
-      .btn { padding: 14px 80px; } 
-    }
-
     &.-team {
       margin: auto;
       max-width: none;
@@ -101,7 +96,7 @@
   }
 
   &.-medium {
-    padding: 220px 0 175px;
+    padding: 240px 0 195px;
   }
 
   &.-small {
