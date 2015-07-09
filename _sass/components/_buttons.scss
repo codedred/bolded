@@ -29,4 +29,13 @@
   }
 }
 
+.btn-event {
+  color: #fff;
+  background: $tb-green;
 
+  &:hover, &:focus, &:active, &:active:focus {
+    outline: none;
+    color: #fff;
+    background: darken($tb-green, 10%);
+  }
+}

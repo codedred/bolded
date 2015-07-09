@@ -30,11 +30,98 @@
     color: $bluish-gray;
     text-transform: uppercase;
   }
+
+  //should be outside of event list.
+  .event-misc {
+    max-width: 240px;
+    width: 100%;
+    margin: 40px auto 0;
+    .btn { padding: 16px 0; }
+  }
+}
+
+.event-details {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 40px;
+  text-align: center;
+  background: rgba(13, 26, 41, 0.56);
+
+  .event-header {
+    color: $bluish-gray;
+    margin: 0;
+  }
+
+  .event-title {
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    font-size: 3em;
+    color: #fff;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 12%;
+      height: 2px;
+      margin: 20px auto 32px;
+      background-color: $bluish-gray;
+    }
+  }
+
+  .event-venue, .event-datetime {
+    h4 { 
+      font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+      font-size: 1.2em;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    p { 
+      color: #fff; 
+      font-size: 1.1em;
+    }
+  }
+
+  .event-venue {
+    &:after {
+      content: "";
+      display: block;
+      width: 12%;
+      height: 2px;
+      margin: 20px auto 32px;
+      background-color: $bluish-gray;
+    }
+  }
+
+  .event-actions {
+    margin-top: 30px;
+    .btn {
+      max-width: 200px;
+      width: 100%;
+      font-family: 'Avenir Next', Helvetica, Arial, sans-serif;
+    }
+  }
 }
 
 .event-misc {
-  max-width: 240px;
-  width: 100%;
-  margin: 40px auto 0;
-  .btn { padding: 16px 0; }
+  max-width: 600px;
+  margin: auto;
+  p { 
+    color: #fff;
+    font-size: 0.95em; 
+  }
+
+  a { 
+    color: #fff;
+    font-size: 0.95em;
+    text-decoration: underline;
+    @include transition(all 0.3s);
+
+    &:hover, &:focus, &:active {
+      color: darken(#fff, 15%);
+    }
+  }
 }
